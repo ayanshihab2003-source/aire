@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="CompGuide Telenovelas — Blog informativo sobre telenovelas colombianas: noticias, análisis de personajes, sinopsis y episodios destacados." />
+  <title>CompGuide Telenovelas — Telenovelas colombianas, noticias y análisis</title>
+
+  <!-- SEO / Social -->
+  <meta property="og:title" content="CompGuide Telenovelas — Telenovelas colombianas" />
+  <meta property="og:description" content="Noticias, análisis y perfiles de personajes de las telenovelas colombianas. Contenido editorial, sin streaming ni descargas." />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Minimal, fast CSS -->
+  <style>
+    :root{--accent:#bf1e2e;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.5;margin:0;color:#111}
+    header{background:linear-gradient(90deg,#fff 0,#fff 100%);border-bottom:1px solid #eee}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .brand{display:flex;gap:16px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#ff7a7a);display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav ul{list-style:none;padding:0;margin:0;display:flex;gap:12px;flex-wrap:wrap}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600}
+    .hero{display:flex;flex-direction:column;gap:12px;padding:28px 0}
+    .hero h1{margin:0;font-size:clamp(1.5rem,3vw,2rem)}
+    .lead{color:var(--muted);max-width:70ch}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:18px}
+    .card{border:1px solid #eee;border-radius:10px;padding:14px;background:#fff}
+    .card h3{margin:0 0 8px 0;font-size:1.05rem}
+    footer{border-top:1px solid #eee;margin-top:36px;padding:20px 0;color:#666;font-size:.9rem}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700;display:inline-block}
+    @media (min-width:900px){ .hero{flex-direction:row;justify-content:space-between;align-items:center} }
+    /* Accessibility focus */
+    a:focus{outline:3px solid #ffdcdc;outline-offset:3px}
+  </style>
+
+  <!-- Structured data (Organization + WebSite) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"CompGuide Telenovelas",
+    "url":"https://tudominio.com/",
+    "description":"Blog informativo sobre telenovelas colombianas: noticias, reseñas, perfiles de personajes y análisis.",
+    "publisher":{"@type":"Organization","name":"CompGuide Telenovelas","url":"https://tudominio.com/"}
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand" role="banner">
+        <div class="logo" aria-hidden="true">CT</div>
+        <div>
+          <strong style="font-size:1.05rem">CompGuide Telenovelas</strong>
+          <div style="color:var(--muted);font-size:.95rem">Blog informativo sobre telenovelas colombianas</div>
+        </div>
+      </div>
+      <nav aria-label="Navegación principal" style="margin-top:12px">
+        <ul>
+          <li><a href="/#inicio">Inicio</a></li>
+          <li><a href="/articulos">Artículos</a></li>
+          <li><a href="/personajes">Personajes</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+          <li><a href="/privacidad">Política de privacidad</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="inicio" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Telenovelas colombianas: noticias, reseñas y análisis</h1>
+        <p class="lead">En CompGuide Telenovelas ofrecemos cobertura editorial imparcial: sin enlaces a descargas ni streaming ilegal. Encuentra sinopsis, perfiles de personajes, contexto cultural y recomendaciones de capítulos destacados.</p>
+        <p style="margin-top:10px">
+          <a class="btn" href="/articulos">Leer artículos</a>
+        </p>
+      </div>
+      <aside aria-label="Sobre el blog" style="max-width:360px">
+        <div style="background:#fafafa;padding:12px;border-radius:8px;border:1px solid #f0f0f0">
+          <strong>Transparencia editorial</strong>
+          <p style="margin:.5rem 0 .2rem 0;color:var(--muted)">Equipo editorial: Ana Pérez (editora), Juan Gómez (investigación cultural). Ver <a href="/sobre">Sobre nosotros</a>.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section aria-labelledby="ultimos" style="margin-top:18px">
+      <h2 id="ultimos">Últimos artículos</h2>
+      <div class="grid" role="list">
+        <article class="card" role="listitem" aria-labelledby="a1">
+          <h3 id="a1">La evolución de las telenovelas colombianas en la última década</h3>
+          <p style="color:var(--muted);margin:8px 0">Análisis de formatos, temas recurrentes y recepción internacional.</p>
+          <p><a href="/articulos/evolucion" aria-label="Leer artículo evolución">Leer</a></p>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="a2">
+          <h3 id="a2">Perfil: los personajes más icónicos de 2000–2025</h3>
+          <p style="color:var(--muted);margin:8px 0">Biografías ficticias, arcos narrativos y su impacto cultural.</p>
+          <p><a href="/articulos/personajes-icónicos">Leer</a></p>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="a3">
+          <h3 id="a3">Guía para seguir una telenovela: capítulos clave</h3>
+          <p style="color:var(--muted);margin:8px 0">Cómo no perderse los puntos de giro más importantes sin spoilers.</p>
+          <p><a href="/articulos/guia-capitulos">Leer</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="editorial" style="margin-top:22px">
+      <h2 id="editorial">Política editorial y legal (resumen)</h2>
+      <ul>
+        <li>Contenido claramente identificado como editorial e informativo.</li>
+        <li>No publicamos enlaces a descargas, archivos ni streaming no autorizado.</li>
+        <li>Información de contacto visible: <a href="mailto:contacto@tudominio.com">contacto@tudominio.com</a></li>
+        <li>Política de privacidad y aviso legal enlazados en el pie de página.</li>
+      </ul>
+      <p style="color:var(--muted)">Si quieres que publiquemos una corrección o retirada de contenido, contáctanos mediante el correo anterior.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>CompGuide Telenovelas</strong><br/>
+          <span class="meta">© <span id="year"></span> CompGuide — Todos los derechos reservados</span>
+        </div>
+        <div style="display:flex;gap:12px;align-items:center">
+          <a href="/privacidad">Política de privacidad</a>
+          <a href="/terminos">Términos y condiciones</a>
+          <a href="/contacto">Contacto</a>
+        </div>
+      </div>
+
+      <div style="margin-top:12px;color:var(--muted);font-size:.9rem">
+        <strong>Nota sobre streaming y derechos de autor:</strong> este sitio ofrece contenido informativo y crítico. No alojamos ni enlazamos a contenido con derechos sin autorización.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small JS only for year; no trackers, no popups
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
